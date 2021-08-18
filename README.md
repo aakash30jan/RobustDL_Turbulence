@@ -1,5 +1,5 @@
 # Robust deep learning for emulating turbulent viscosities 
-(Under consideration for publication in the Physics of Fluids)
+(Under consideration for publication in the Physics of Fluids) 
 _The code will be released upon publication of the manuscript_
 ###
 ### Abstract:
