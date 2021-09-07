@@ -1,0 +1,10 @@
+<VTKFile type="Collection" version="0.1" byte_order="LittleEndian">
+  <Collection>
+    <DataSet timestep="48.2" group="" part="0" file="bulles_00500.vtu"/>
+    <DataSet timestep="48.21" group="" part="0" file="bulles_00501.vtu"/>
+    <DataSet timestep="48.31" group="" part="0" file="bulles_00502.vtu"/>
+    <DataSet timestep="48.41" group="" part="0" file="bulles_00503.vtu"/>
+    <DataSet timestep="48.51" group="" part="0" file="bulles_00504.vtu"/>
+    <DataSet timestep="48.61" group="" part="0" file="bulles_00505.vtu"/>
+  </Collection>
+</VTKFile>
