@@ -61,7 +61,7 @@ Problems? Please raise an issue at [https://github.com/aakash30jan/RobustDL_Turb
 [![Issues](https://img.shields.io/github/issues/RobustDL_Turbulence/issues)](#pydispo)  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](#pydispo)
 
 ### Citation:
-Please use https://doi.org/xxx/xxx for citing this code or article. You may also download this .bib file or copy the following bibtex entry. 
+Please use https://doi.org/xxx/xxx for citing this code or article. You may also download [this](https://scholar.googleusercontent.com/scholar.bib?q=info:_D9NJ40fE7QJ:scholar.google.com/&output=citation&scisdr=CgXM4NgCEPTclLJb0ls:AAGBfm0AAAAAYVxeylvjonDP1ZKvaZrHqCMZqLsx1-eV&scisig=AAGBfm0AAAAAYVxeys2GRvAnuUS7aMi31HIh1dtJMx5n&scisf=4&ct=citation&cd=-1&hl=en) .bib file or copy the following bibtex entry. 
 ```
 @article{patil2021robust,
   title={Robust deep learning for emulating turbulent viscosities},
@@ -70,3 +70,8 @@ Please use https://doi.org/xxx/xxx for citing this code or article. You may also
   year={2021}
 }
 ```
+
+### Disclaimers:
+No Warranty:  The subject software is provided "as is" without any warranty of any kind, either expressed, implied, or statutory, including, but not limited to, any warranty that the subject software will conform to specifications, any implied warranties of merchantability, fitness for a particular purpose, or freedom from infringement, any warranty that the subject software will be error free, or any warranty that documentation, if provided, will conform to the subject software. This agreement does not, in any manner, constitute an endorsement by any agency or any prior recipient of any results, resulting designs, hardware, software products or any other applications resulting from use of the subject software. Further, the subject software  disclaims all warranties and liabilities regarding third-party software, if present in the original software, and distributes it "as is.
+
+
