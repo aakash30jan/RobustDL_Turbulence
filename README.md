@@ -7,17 +7,26 @@ From the simplest models to complex deep neural networks, modeling turbulence wi
 
 
 ### Requirements:
-
+1. scipy==1.3.1
+2. vtk==8.1.2
+3. tqdm==4.37.0
+4. numpy==1.17.3
+5. tensorflow==2.0.0
+6. matplotlib==3.2.1
+7. tqdm==4.37.0
 
 ### Usage:
-# Download
+#### Download
 ```bash
 git clone https://github.com/aakash30jan/RobustDL_Turbulence
-
+```
+If git is not installed, you can get the source zip with
+```bash
+wget -O RobustDLTurbulence.zip https://github.com/aakash30jan/RobustDL_Turbulence/archive/refs/heads/main.zip 
+unzip RobustDLTurbulence.zip
 ```
 
-
-# Install Requirements
+#### Install Requirements
 ```bash
 cd transport
 pip install -r requirements.txt
@@ -26,7 +35,7 @@ pip install -r requirements.txt
 ```
 Make sure you install TF2.0 with GPU support.  
 
-# Pre-process the training data
+#### Pre-process the training data
 Make sure the training data is stored at `case_dir`  
 ```bash
 cd transport
@@ -34,7 +43,7 @@ python3 preprocess.py
 ```
 The current `preprocess.py` looks for `.vtu` files in `case_sample/resultats/2d/bulles*.vtu` . Modify the `case_dir`, `resultats_dir`, `fileListVTU` to accomodate your training dataset containing `.vtu` files of interest. 
 
-# Train the model
+#### Train the model
 ```console
 cd train
 make train
@@ -46,12 +55,12 @@ make clean
 ```
 The file train.py is self-explanatory: We first load the system and user-defined libraries, set the training parameters, load the pre-processed dataset, make a patched-data, load the model architectures, define training and validation steps to suit TF2.0, and then perform the training. Make sure cuda-capabale devices and drivers are visible to Tensorflow, you may need to `module load cudaxxx` depending on the machine configuration. 
 
-## Issues:
+### Issues:
 Problems? Please raise an issue at [https://github.com/aakash30jan/RobustDL_Turbulence/issues](https://github.com/aakash30jan/RobustDL_Turbulence/issues).
 
 [![Issues](https://img.shields.io/github/issues/RobustDL_Turbulence/issues)](#pydispo)  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](#pydispo)
 
-## Citation:
+### Citation:
 Please use https://doi.org/xxx/xxx for citing this code or article. You may also download this .bib file or copy the following bibtex entry. 
 ```
 @article{patil2021robust,
