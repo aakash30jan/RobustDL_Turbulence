@@ -1,5 +1,4 @@
-# Robust deep learning for emulating turbulent viscosities 
-_Under consideration for publication in the Physics of Fluids, the code will be released upon publication of the manuscript_
+# Robust Deep Learning For Emulating Turbulent Viscosities 
 
 ###
 <p align="center">
@@ -10,7 +9,7 @@ _Under consideration for publication in the Physics of Fluids, the code will be 
 ### Abstract:
 From the simplest models to complex deep neural networks, modeling turbulence with machine learning techniques still offers multiple challenges. In this context, the present contribution proposes a robust strategy using patch-based training to learn turbulent viscosity from flow velocities, and demonstrates its efficient use on the Spallart-Allmaras turbulence model. Training datasets are generated for flow past two-dimensional obstacles at high Reynolds numbers and used to train an auto-encoder type convolutional neural network with local patch inputs. Compared to a standard training technique, patch-based learning not only yields increased accuracy but also reduces the computational cost required for training.
 
-### Manuscript: https://arxiv.org/abs/2107.11235
+### Article: https://aip.scitation.org/doi/abs/10.1063/5.0064458
 
 ### Requirements:
 1. scipy==1.3.1
