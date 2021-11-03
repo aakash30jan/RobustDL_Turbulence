@@ -87,6 +87,6 @@ Please use https://doi.org/10.1063/5.0064458 for citing this code or article. Yo
 No Warranty:  The subject software is provided "as is" without any warranty of any kind, either expressed, implied, or statutory, including, but not limited to, any warranty that the subject software will conform to specifications, any implied warranties of merchantability, fitness for a particular purpose, or freedom from infringement, any warranty that the subject software will be error free, or any warranty that documentation, if provided, will conform to the subject software. This agreement does not, in any manner, constitute an endorsement by any agency or any prior recipient of any results, resulting designs, hardware, software products or any other applications resulting from use of the subject software. Further, the subject software  disclaims all warranties and liabilities regarding third-party software, if present in the original software, and distributes it "as is.
 
 <!--- ![TARDowns](https://gpvc.arturio.dev/aakash30jan) -->
-
+[![Hits](https://hits.deltapapa.io/github/aakash30jan/RobustDL_Turbulence.svg)](#)
 
 
